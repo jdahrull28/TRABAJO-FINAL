@@ -1,0 +1,19 @@
+.titulo{
+    color: rgb(4, 84, 231);
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5pt;
+}
+body{
+    padding: 0 5pt 0 5pt;
+}
+input{
+    padding-top: 5pt;
+    margin-top: 5pt;
+}
+button{
+    padding: 3pt;
+    margin: 5pt;
+    color: white;
+    background-color: rgb(56, 125, 252);
+}

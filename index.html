@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="titulo">Listado de errores por PC</h2>
+    <hr>
+    <h3>Agregar un nuevo error</h3>
+    <form onsubmit="agregarEquipo(event)">
+        <div>
+            <input id="nombre-pc" type="text" placeholder="Nombre de la PC">
+        </div>
+        <div>
+            <input id="error" type="text" placeholder="Error">
+        </div>
+        <button>AGREGAR</button>
+    </form>
+    <hr>
+    <h3>Listado de errores</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Error</th>
+                <th>Resuelto</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
